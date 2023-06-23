@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import os
 
-original_image_name = 'grouptest1'
+original_image_name = 'threefemaledoctors'
 cropped_image_save_path = 'runs/cropped/'
 
 
