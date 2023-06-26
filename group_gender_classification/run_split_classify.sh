@@ -1,6 +1,7 @@
 #!/bin/sh
 
 declare -a arr = (list of files)
+set
 
 cd $working_dir
 

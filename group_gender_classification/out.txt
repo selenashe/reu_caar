@@ -1,0 +1,33 @@
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+('doctors_femalegroup1.jpg_0.jpg', ('Male', 0.9978592))
+('grouptest1.jpg_3.jpg', ('Male', 0.999726))
+('doctors.jpg_2.jpg', ('Male', 0.96620685))
+('teachers1.jpg_2.jpg', ('Male', 0.99991465))
+('firefighters.jpg_2.jpg', ('Female', 0.99912626))
+('constructionworkers.jpg_1.jpg', ('Female', 0.64351106))
+('teachers2.jpg_0.jpg', ('Female', 0.5343972))
+('grouptest3.jpg_2.jpg', ('Female', 0.9895264))
+('doctors_malegroup1.jpg_1.jpg', ('Female', 0.5368845))
+('teachers_femalegroup1.jpg_0.jpg', ('Male', 0.99391973))
+('grouptest2.jpg_0.jpg', ('Male', 0.7201423))
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
