@@ -4,13 +4,13 @@ import numpy as np
 import cv2
 import os
 
-directory = 'examples/testset/'
+directory = 'img_datasets/testset/'
 cropped_image_save_path = 'runs/cropped/'
 
 
 def crop_faces(original_image_name, cropped_image_save_path):
     '''
-    Take an image, detect faces using yolo8, and crop eaach fa
+    Take an image, detect faces using yolov8 (face), and crop each face.
     '''
     # Load a model
     model = YOLO('yolov8n-face.pt')  # load an official model
@@ -62,9 +62,8 @@ def main(original_image_name):
         if file.startswith(current_image_name):
             print(file, classify_gender(f'{cropped_image_save_path}{file}'))
 
-
 for filename in os.listdir(directory):
     file = os.path.join(directory, filename)
-    print(file)
+    # print(file)
     if os.path.isfile(file):
         crop_faces(file, cropped_image_save_path)
